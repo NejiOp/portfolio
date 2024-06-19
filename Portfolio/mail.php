@@ -3,13 +3,13 @@
 $name = $_POST['name'];
 $phone = $_POST['phone']; 
 $email = $_POST['email'];
-$event = $_POST['event'];
+$Subject = $_POST['Subject'];
 $message = $_POST['message'];
-$to = "inquiries@weandyoudecor.com";
-$subject = "Mail From Decor website";
+$to = "anuragmishra2102@gmail.com";
+$subject = "Mail From portfolio website";
 $txt = "Name = " . $name . "\r\nNumber = " . $phone . "\r\nEmail = " . $email . "\r\nEvent = " . $event . "\r\nMessage =" . $message;
 $headers = "From: $email" . "\r\n" .
-    "CC: askweandyouevents@gmail.com";
+    "CC: anuragmishra2102@gmail.com";
 if ($email != NULL) {
     mail($to, $subject, $txt, $headers);
 }
