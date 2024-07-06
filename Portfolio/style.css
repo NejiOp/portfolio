@@ -221,7 +221,7 @@ section .title::after{
     width: 45%;
 }
 .about .about-content .right{
-    width: 100%;
+    width: 50%;
 }
 .about .about-content .right .text{
     font-size: 3.7rem;
