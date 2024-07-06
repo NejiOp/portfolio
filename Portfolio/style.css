@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display:flex;
-    background: url("assets/polotno.png") no-repeat center;
+    background: url("assets/polotno1.png") no-repeat center;
     height: 90vh;
     color: #fff;
     min-height: 500px;
